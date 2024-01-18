@@ -1,0 +1,25 @@
+version: '3.0'
+services:
+  web:
+    build: ./sentiment
+    ports:
+      - "5000:5000"
+    depends_on:
+      - mysql
+    networks:
+      - mynetwork
+      
+  mysql:
+    build: ./mysql 
+    ports: 
+      - "3307:3306"
+    environment:
+      - MYSQL_ROOT_PASSWORD=Gungun/123
+    restart: always
+    networks:
+      - mynetwork
+
+networks:
+  mynetwork:
+
+

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="icon" href="./icon.jpg"> -->
+    <title>Sentiment Analysis</title>
+</head>
+<style>
+    body{
+    text-align: center;
+    background-color:cadetblue;
+    }
+    h1,p{
+        color: whitesmoke;
+    }
+
+    form{
+        background-color: whitesmoke;
+        margin-left: 570px;
+        margin-top: 50px; 
+        block-size: auto;
+        width: 700px;
+        height: 700px;
+    }
+
+    .form-control{
+        text-align: left;
+        margin-top: 10px;
+        margin: 20px;
+    }
+
+    .form-control label{
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .form-control input, .form-control select{
+        height: 30px;
+        width: 95%;
+        border-radius: 2px;
+    }
+
+    .form-control input[type=radio], .form-control input[type=checkbox]{
+        height:10px;
+        width: auto;
+        display: inline-block;
+    }
+
+    footer{
+        margin-top: 10px;
+        margin-bottom: 5px;
+        color: whitesmoke;
+    }
+
+
+</style>
+<body>
+
+    <h1>Welcome to the "Ram Mandir" News Sentiment Analysis</h1>
+    <p>Please fill the form given below!</p>
+        
+        <form id="form" action="{{ url_for('sentiment')}}" method="POST">
+            <br>
+            <!-- <div class="form-control">
+                <label for="topic" id="label-topic">
+                    <i><b>Topic:</b></i>
+                </label>
+                <input type="text" id="topic" name="topic" placeholder="Enter the topic..." required/>
+            </div> -->
+
+            
+
+            <div class="form-control">
+                <label for="start_date" id="label-start-date">
+                    <i><b>Start Date:</b></i>
+                </label>
+                <input type="date" id="start" name="startdate" min="2024-01-01" max="2024-01-10">
+            </div>
+            <div class="form-control">
+                <label for="end_date" id="label-end-date">
+                    <i><b>End Date:</b></i>
+                </label>
+                <input type="date" id="end" name="enddate" min="2024-01-01" max="2024-01-18">
+            </div>
+
+            <!-- <div class="form-control">
+                <label for="ice1" id="label-ice1">
+                    Do you like icecream?
+                </label>
+                <label for="ice1"> Yes:<input type="radio" id="ice1" required/></label>
+                <label for="ice1"> No:<input type="radio" id="ice1"/></label>
+                
+            </div> -->
+
+            <div class="form-control">
+                <label for="details" id="label-details">
+                    <i><b>Check all the details you would like to see.</b></i>
+                    <br>
+                </label>
+                <label for="details"> Author <input type="checkbox" id="details" name="details" value="author" /></label>
+                <label for="details"> Title <input type="checkbox" id="details" name="details" value="title" required/></label>
+                <label for="details"> Description <input type="checkbox" id="details" name="details" value="description"/></label>
+                <label for="details"> URL <input type="checkbox" id="details" name="details"  value="url"/></label>
+                <label for="details"> Content <input type="checkbox" id="details" name="details" value="content"/></label>
+                <label for="details"> Publishing Date <input type="checkbox" id="details" name="details" value="publishedAt"/></label>
+                <label for="details"> News Agency <input type="checkbox" id="details" name="details" value="source_name"/></label>
+                <label for="details"> Sentiment <input type="checkbox" id="details" name="details" value="sentiment"/></label>
+
+            </div>
+
+            <div class="form-control">
+                <label for="sentiment" id="label-sentiment">
+                    <i><b>What type of news you would like to know about?</b></ii>
+                    <br>
+                </label>
+                <label for="sentiment"> Positive <input type="checkbox" id="sentiment" name="sentiment" value="Positive"/></label>
+                <label for="sentiment"> Negative <input type="checkbox" id="sentiment" name="sentiment" value="Negative"/></label>
+                <label for="sentiment"> Neutral <input type="checkbox" id="sentiment" name="sentiment" value="Neutral"/></label>
+            </div>
+
+
+            <div>
+                <button type="submit" value="submit">Submit</button>
+                <button type="reset" value="reset">Reset</button>
+            </div>
+
+        </form>
+
+    
+    
+</body>
+
+<!-- <footer>Developed by Aishnee &hearts;</footer> -->
+
+</html>

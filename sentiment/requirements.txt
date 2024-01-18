@@ -1,0 +1,9 @@
+Flask
+pandas
+mysql-connector-python
+textblob
+SQLAlchemy
+requests
+pymysql
+PyMySQL[rsa]
+cryptography
