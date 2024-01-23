@@ -1,7 +1,7 @@
 FROM  python:3.11.5
 EXPOSE 8000
 WORKDIR /app
-ENV FLASK_APP=form.py
+ENV FLASK_APP=sentiment/form.py
 ENV FLASK_RUN_HOST=0.0.0.0
 COPY . .
 # COPY fetch.py /app
