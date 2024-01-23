@@ -2,7 +2,7 @@ FROM  python:3.11.5
 EXPOSE 8000
 COPY form.py /app
 COPY fetch.py /app
-COPY templates /app
+COPY templates/ /app
 WORKDIR /app
 # ENV FLASK_APP=form.py
 # ENV FLASK_RUN_HOST=0.0.0.0
