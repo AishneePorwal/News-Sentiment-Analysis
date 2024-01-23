@@ -53,8 +53,13 @@ def sentiment():
       # def make_clickable(val):
       #    return f'<a href="{val}">{val}</a>'
 
-      # df['url']=df['url'].apply(lambda x: make_clickable(x))
-      df.to_html('templates/sql_data.html', columns=cols)
+      df['url'] = f'<a href=' + df['url'] + ' target="_blank"> Link </a>'
+      df = df.reset_index(drop=True)
+      
+      df = df.style.set_properties(**{'text-align': 'center'})
+      
+      df.to_html('templates/sql_data.html', columns=cols, index=False, escape=False)
+
 
       # time.sleep(10)
 

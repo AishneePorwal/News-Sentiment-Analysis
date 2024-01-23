@@ -382,19 +382,6 @@
             {
                   "source": {
                         "id": null,
-                        "name": "The Indian Express"
-                  },
-                  "author": "PTI",
-                  "title": "Ayodhya Diaries: 56 varieties of Agra\u2019s famous petha delivered as offering",
-                  "description": "Every section of the society on CM Yogi Adityanath\u2019s appeal for public participation is contributing for the Ram temple inauguration in an expression of their devotion and happiness.",
-                  "url": "https://indianexpress.com/article/india/ayodhya-diaries-56-varieties-of-agras-famous-petha-delivered-as-offering-9112546/",
-                  "urlToImage": "https://images.indianexpress.com/2024/01/pethaaa.jpg",
-                  "publishedAt": "2024-01-16T23:30:56Z",
-                  "content": "Fifty-six varieties of Agra\u2019s famous petha and as many different flavours was Tuesday delivered as an offering to Lord Ram, an official statement said.\r\nEvery section of the society on CM Yogi Aditya\u2026 [+494 chars]"
-            },
-            {
-                  "source": {
-                        "id": null,
                         "name": "Moneycontrol"
                   },
                   "author": "Anita Rao Kashi",
@@ -404,6 +391,19 @@
                   "urlToImage": "https://images.moneycontrol.com/static-mcnews/2024/01/Kodandarama-Temple-Hiremagalur-Karnataka-2-770x433.jpg",
                   "publishedAt": "2024-01-17T13:51:34Z",
                   "content": "All eyes are turned towards Ayodhya in Uttar Pradesh as the curtains are ready to go up on an iconic temple that is rooted in the Indian psyche and various kinds of celebrations are expected to conti\u2026 [+5332 chars]"
+            },
+            {
+                  "source": {
+                        "id": null,
+                        "name": "The Indian Express"
+                  },
+                  "author": "PTI",
+                  "title": "Ayodhya Diaries: 56 varieties of Agra\u2019s famous petha delivered as offering",
+                  "description": "Every section of the society on CM Yogi Adityanath\u2019s appeal for public participation is contributing for the Ram temple inauguration in an expression of their devotion and happiness.",
+                  "url": "https://indianexpress.com/article/india/ayodhya-diaries-56-varieties-of-agras-famous-petha-delivered-as-offering-9112546/",
+                  "urlToImage": "https://images.indianexpress.com/2024/01/pethaaa.jpg",
+                  "publishedAt": "2024-01-16T23:30:56Z",
+                  "content": "Fifty-six varieties of Agra\u2019s famous petha and as many different flavours was Tuesday delivered as an offering to Lord Ram, an official statement said.\r\nEvery section of the society on CM Yogi Aditya\u2026 [+494 chars]"
             },
             {
                   "source": {
@@ -1256,12 +1256,12 @@
                         "name": "NDTV News"
                   },
                   "author": null,
-                  "title": "Ahead Of Ram Temple Opening, Ayodhya Sees A Rise In E-Rickshaws",
-                  "description": "As Ayodhya gears up for the 'Pran Pratishtha' of the Ram Temple on January 22, 2024, the temple town is witnessing an overhaul for the big day.",
-                  "url": "https://www.ndtv.com/india-news/ahead-of-ram-temple-opening-ayodhya-sees-a-rise-in-e-rickshaws-tonga-carts-4792388",
-                  "urlToImage": "https://c.ndtvimg.com/2024-01/akjml5d_e-rickshaw-ayodhya_625x300_03_January_24.jpg",
-                  "publishedAt": "2024-01-03T09:21:03Z",
-                  "content": "Youngsters have purchased new e-rickshaws with the hope of earning more money during this period\r\nAyodhya: As Ayodhya gears up for the 'Pran Pratishtha' of the Ram Temple on January 22, 2024, the tem\u2026 [+6403 chars]"
+                  "title": "Pics: Ram Temple, Down Memory Lane",
+                  "description": "India is fully geared up for the grand 'Pran Pratistha' (consecration ceremony) at Ram Temple in Ayodhya next Monday.",
+                  "url": "https://www.ndtv.com/india-news/ram-temple-from-campaign-to-reality-4867684",
+                  "urlToImage": "https://c.ndtvimg.com/2024-01/lrah74jg_mahant-nitya-gopal-das-addressing-a-dharam-sansad-meeting-at-ayodhya_625x300_15_January_24.jpg?im=FaceCrop,algorithm=dnn,width=1200,height=738?ver-20231203.06",
+                  "publishedAt": "2024-01-15T12:41:38Z",
+                  "content": "Many states have marked 22 January as a dry day to mark the momentous occasion.\r\nNew Delhi: India is fully geared up for the grand 'Pran Pratistha' (consecration ceremony) at Ram Temple in Ayodhya ne\u2026 [+1293 chars]"
             },
             {
                   "source": {
@@ -1269,12 +1269,12 @@
                         "name": "NDTV News"
                   },
                   "author": null,
-                  "title": "Pics: Ram Temple, Down Memory Lane",
-                  "description": "India is fully geared up for the grand 'Pran Pratistha' (consecration ceremony) at Ram Temple in Ayodhya next Monday.",
-                  "url": "https://www.ndtv.com/india-news/ram-temple-from-campaign-to-reality-4867684",
-                  "urlToImage": "https://c.ndtvimg.com/2024-01/lrah74jg_mahant-nitya-gopal-das-addressing-a-dharam-sansad-meeting-at-ayodhya_625x300_15_January_24.jpg?im=FaceCrop,algorithm=dnn,width=1200,height=738?ver-20231203.06",
-                  "publishedAt": "2024-01-15T12:41:38Z",
-                  "content": "Many states have marked 22 January as a dry day to mark the momentous occasion.\r\nNew Delhi: India is fully geared up for the grand 'Pran Pratistha' (consecration ceremony) at Ram Temple in Ayodhya ne\u2026 [+1293 chars]"
+                  "title": "Ahead Of Ram Temple Opening, Ayodhya Sees A Rise In E-Rickshaws",
+                  "description": "As Ayodhya gears up for the 'Pran Pratishtha' of the Ram Temple on January 22, 2024, the temple town is witnessing an overhaul for the big day.",
+                  "url": "https://www.ndtv.com/india-news/ahead-of-ram-temple-opening-ayodhya-sees-a-rise-in-e-rickshaws-tonga-carts-4792388",
+                  "urlToImage": "https://c.ndtvimg.com/2024-01/akjml5d_e-rickshaw-ayodhya_625x300_03_January_24.jpg",
+                  "publishedAt": "2024-01-03T09:21:03Z",
+                  "content": "Youngsters have purchased new e-rickshaws with the hope of earning more money during this period\r\nAyodhya: As Ayodhya gears up for the 'Pran Pratishtha' of the Ram Temple on January 22, 2024, the tem\u2026 [+6403 chars]"
             },
             {
                   "source": {
