@@ -3,7 +3,7 @@ services:
   web:
     image: aishnee/project1-web
     ports:
-      - "8000:8000"
+      - "5050:5050"
     depends_on:
       - mysql
     networks:

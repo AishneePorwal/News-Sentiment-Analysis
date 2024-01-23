@@ -1,5 +1,5 @@
 FROM  python:3.11.5
-EXPOSE 8000
+EXPOSE 5050
 COPY . /app
 WORKDIR /app
 # ENV FLASK_APP=form.py
