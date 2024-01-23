@@ -21,15 +21,14 @@ jobs:
         name: Build and push
         uses: docker/build-push-action@v5
         with:
-          context: .
-          file: ./mysql/Dockerfile
+          context: ./mysql
           push: true
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/project1-mysql:latest
       -
         name: Build and push
         uses: docker/build-push-action@v5
         with:
-          context: .
-          file: ./sentiment/Dockerfile
+          context: ./sentiment
+          file:
           push: true
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/project1-web:latest
