@@ -1,7 +1,7 @@
 version: '3.0'
 services:
   web:
-    build: ./sentiment
+    image: aishnee/project1-web
     ports:
       - "5000:5000"
     depends_on:
@@ -10,7 +10,7 @@ services:
       - mynetwork
       
   mysql:
-    build: ./mysql 
+    image: aishnee/project1-mysql
     ports: 
       - "3307:3306"
     environment:
