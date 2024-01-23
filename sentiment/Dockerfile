@@ -7,4 +7,4 @@ WORKDIR /app
 # COPY news_data.json /app
 # RUN pip freeze > requirements.txt
 RUN pip install -r requirements.txt
-CMD sh -c "sleep 30s; python3 form.py"
+CMD sh -c "sleep 15s; python3 form.py"
