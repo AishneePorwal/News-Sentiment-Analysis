@@ -50,7 +50,10 @@ def sentiment():
       df=pd.DataFrame(myresult, columns=['author','title', 'description','url','publishedAt','content','source_name','sentiment'])
       df.sort_values(by=['publishedAt'], ascending=True)
       print(df)
+      def make_clickable(val):
+         return f'<a href="{val}">{val}</a>'
 
+      df['url']=df['url'].apply(lambda x: f'<a href="{x}">{x}</a>')
       df.to_html('templates/sql_data.html', columns=cols)
 
       # time.sleep(10)
